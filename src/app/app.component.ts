@@ -25,3 +25,11 @@ export class AppComponent {
     this.router.navigate(['/']); // отправляю на страницу регистрации
   }
 }
+
+/*
+1.  npm install -g angular-cli-ghpages.
+2. ng build --prod --base-href "https://IlyaZolotukhin.github.io/example-angular/".
+   ng build --configuration production --base-href "https://IlyaZolotukhin.github.io/example-angular/" -для поздних версий
+3. ngh --dir dist/example-angular
+*/
+
